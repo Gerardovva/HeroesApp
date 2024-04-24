@@ -5,6 +5,7 @@ import { Error404PageComponent } from './shared/pages/error404-page/error404-pag
 import { canActivateFn, canMatchFn } from './auth/guards/auth.guard';
 
 
+
 const routes: Routes = [
   {
     path: 'auth', loadChildren: () => import('./auth/auth.module').then(m => m.AuthModule),
