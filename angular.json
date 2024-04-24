@@ -35,7 +35,7 @@
               "fileReplacements": [
                 {
                   "replace": "src/envoronments/envoronments.ts",
-                  "with":"src/envoronments/envoronments.prod.ts"
+                  "with":"src/envoronments/envoronments.ts"
                 }
               ],
               "budgets": [
